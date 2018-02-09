@@ -1,0 +1,28 @@
+Link:
+https://www.youtube.com/watch?v=oylHRgBDfNc
+
+1.It  Is removing depedency
+2.Removing Duplication in table
+3.Creating a table  having unique peace of information
+4.Table will be get connected through Foreign key{can be null ,but  Primary key can not}
+5.First table  tupples ,field   mapped by  foreign key  that is  second  table  primary key
+3.Due to redundency lot of problem come
+
+=======================================
+Normalisation-1nf            ==>functional dependency
+	     -2nd NF
+	     -3rd NF
+	     -
+	     -BCNF
+		-4th normal form
+	     -5th nf
+
+==================================
+
+EG:
+Putting All Information in to one table create lot of problem
+
+student information+Department information+
+	Insertion Anomalises-->
+	Deletion Anomalies--Deleting all  student information from table ,department information lost
+	updation anomlies--One row ,Hod name change-->Othere tupples-Not Change-->Data has inconsitency
